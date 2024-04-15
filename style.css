@@ -1,0 +1,177 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.resume {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  animation: rotate 5s infinite linear;
+  border: 5px solid #007bff;
+}
+
+.name {
+  color: #333;
+  margin-bottom: 5px;
+  animation: glow 2s linear infinite alternate;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes glow {
+  0% {
+    text-shadow: 0 0 5px #007bff;
+  }
+  100% {
+    text-shadow: 0 0 10px #007bff, 0 0 20px #007bff, 0 0 30px #007bff;
+  }
+}
+
+.contact {
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 5px;
+}
+
+.company {
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.position {
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.year {
+  font-weight: bold;
+  color: #007bff;
+  margin-right: 5px;
+}
+
+.date {
+  font-size: 14px;
+  color: #888;
+}
+
+@keyframes glow {
+  0% {
+    text-shadow: 0 0 5px #007bff;
+  }
+  100% {
+    text-shadow: 0 0 10px #007bff, 0 0 20px #007bff, 0 0 30px #007bff;
+  }
+}
+
+.contact {
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 5px;
+}
+
+.company {
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.position {
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.year {
+  font-weight: bold;
+  color: #007bff;
+  margin-right: 5px;
+}
+
+.date {
+  font-size: 14px;
+  color: #888;
+}
+
+@media (max-width: 600px) {
+  .resume {
+    padding: 10px;
+  }
+  .header {
+    margin-bottom: 10px;
+  }
+  .profile-picture {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 5px;
+  }
+  .name {
+    font-size: 24px;
+  }
+  .contact {
+    font-size: 14px;
+  }
+  .section {
+    margin-bottom: 10px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  .company {
+    font-size: 16px;
+  }
+  .position {
+    font-size: 14px;
+  }
+  .year {
+    font-size: 14px;
+  }
+  .date {
+    font-size: 12px;
+  }
+}
